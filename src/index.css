@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+	margin:0px;
+	padding:0px;
+	
+	border-radius: 0px;
+	box-sizing: border-box;
+	font-size: 115%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.calculator-title{
+	font-size:30px;
+	background: #304069;
+	width: 80%;
+	padding: 10px 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border: 2px solid #00161b;
+	color: #ffffff;
+}
+
+
+.mainCalc{
+	
+    margin:0px;
+	padding:0px;
+	border-radius: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+input[type='button']{
+	width: 90px;
+    margin: 2px;
+	background: #304069;
+	border: 5px solid #00161b;
+	padding: 10px 20px;
+    border-radius: 20%;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+input[type='button']:active{
+	background: #236cda;
+}
+
+
+#root{
+	background: #000000;
+	margin: 5px;
+	padding: 10px;
+	border: 10px solid #00313b;
+
+	text-align:center;
+    
+}
+
+.screen-row input{
+  width: 400px;
+	background: #071230;
+    border-color: rgb(72, 92, 153);
+    border-width: 20px;
+	border-radius: 5%;
+	color: #ffffff;
+	padding: 10px;
+    margin-bottom: 5px;
+	text-align: right;
 }
